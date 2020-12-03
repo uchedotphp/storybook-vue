@@ -1,22 +1,28 @@
 <template>
-  <div class="grid container mx-auto justify-between pb-8">
-    <div class="flex items-center">
-      <img src="./../assets/imgs/logo.png" class="h-14" alt="" srcset="" />
-      <div class="font-bold leading-none">
-
-      <p class="">
-        Learn <br />
-        at home
+  <div class="grid container mx-auto justify-between">
+    <div class="flex items-end">
+      <img
+        src="./../assets/imgs/master-card.png"
+        class="h-20"
+        alt=""
+        srcset=""
+      />
+      <div class="font-bold leading-none ml-1">
+        <p class="">
+          Learn <br />
+          at home
         </p>
         <small class="text-xs">this is the slogan below</small>
       </div>
     </div>
 
-    <div class="bg-red-700 flex items-center">
-      <div class="bg-white w-10/12 relative p-2 rounded-full">
+    <div class="flex items-center">
+      <div
+        class="bg-white w-10/12 relative p-2 rounded-full border border-gray-400"
+      >
         <input
           type="text"
-          class="w-full pl-6 placeholder-black text-xs"
+          class="w-full pl-5 pr-8 placeholder-black text-xs focus:outline-none"
           placeholder="Search for course"
         />
         <svg

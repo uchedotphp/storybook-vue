@@ -1,5 +1,5 @@
 <template>
-  <div class="my-4 container mx-auto grid">
+  <div class="py-20 container mx-auto grid">
     <div>
       <div class="my-6">
         <p class="text-4xl font-bold py-2 leading-none">
@@ -19,7 +19,7 @@
               type="text"
               id="email"
               placeholder="input your email"
-              class="w-full border border-gray-200 px-4 pt-6 pb-2 focus:outline-none"
+              class="w-full border border-gray-400 border-b-0 px-4 pt-6 pb-2 focus:outline-none"
             />
           </div>
           <div class="relative">
@@ -28,15 +28,15 @@
               type="text"
               id="password"
               placeholder="input your password"
-              class="w-full border border-gray-200 px-4 pt-6 pb-2 focus:outline-none"
+              class="w-full border border-gray-400 px-4 pt-6 pb-2 focus:outline-none"
             />
           </div>
           <div class="flex justify-between px-4 py-5">
             <span> Remember me </span>
             <a href="#"> Forgot Password? </a>
           </div>
-          <button class="bg-gray-400 px-14 py-2 mr-4">Submit</button>
-          <button class="bg-white px-14 py-2">Sign Up</button>
+          <button class="bg-gray-300 px-14 py-2 mr-4">Submit</button>
+          <button class="bg-white px-14 py-2 border border-gray-400">Sign Up</button>
         </form>
       </div>
     </div>

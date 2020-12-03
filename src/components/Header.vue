@@ -1,5 +1,5 @@
 <template>
-  <div class="grid container mx-auto justify-between">
+  <div class="grid container mx-auto justify-between pb-8">
     <div class="flex items-center">
       <img src="./../assets/imgs/logo.png" class="h-14" alt="" srcset="" />
       <div class="font-bold leading-none">
@@ -13,10 +13,10 @@
     </div>
 
     <div class="bg-red-700 flex items-center">
-      <div class="bg-white w-9/12 relative p-2 rounded-full">
+      <div class="bg-white w-10/12 relative p-2 rounded-full">
         <input
           type="text"
-          class="w-full pl-6 placeholder-black"
+          class="w-full pl-6 placeholder-black text-xs"
           placeholder="Search for course"
         />
         <svg

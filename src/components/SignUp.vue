@@ -33,10 +33,10 @@
           </div>
           <div class="flex justify-between px-4 py-5">
             <span> Remember me </span>
-            <a href="#"> Forgot Password? </a>
+            <a href="#" class="underline"> Forgot Password? </a>
           </div>
-          <button class="bg-gray-300 px-14 py-2 mr-4">Submit</button>
-          <button class="bg-white px-14 py-2 border border-gray-400">Sign Up</button>
+          <button class="bg-gray-300 px-14 py-2 focus:outline-none mr-4">Submit</button>
+          <button class="bg-white px-14 py-2 border border-gray-400 focus:outline-none">Sign Up</button>
         </form>
       </div>
     </div>

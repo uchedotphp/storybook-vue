@@ -1,5 +1,5 @@
 <template>
-  <div class="py-20 container mx-auto grid">
+  <div class="py-20 px-40 container mx-auto grid">
     <div>
       <div class="my-6">
         <p class="text-4xl font-bold py-2 leading-none">
@@ -40,7 +40,13 @@
         </form>
       </div>
     </div>
-    <div></div>
+    <div class="flex justify-end pr-10">
+      <div class="rounded-full h-40 w-40 border-4 border-gray-400 relative">
+        <div class="rounded-full h-80 w-80 bg-gray-200 absolute right-8 top-14">
+          <div class="rounded-full h-32 w-32 bg-gray-500 absolute top-44 right-60"></div>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 

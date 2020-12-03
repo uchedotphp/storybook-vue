@@ -1,6 +1,6 @@
 <template>
   <div class="bg-gray-300 py-10">
-    <div class="container mx-auto text-left">Partners</div>
+    <div class="container mx-auto px-40  text-left">Partners</div>
   </div>
 </template>
 

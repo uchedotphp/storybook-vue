@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto py-10 capitalize">
+  <div class="container mx-auto py-10 px-40  capitalize">
     <div class="grid justify-between">
       <div class="flex justify-between">
         <div class="">

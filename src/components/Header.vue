@@ -1,5 +1,5 @@
 <template>
-  <div class="grid container mx-auto justify-between">
+  <div class="grid container mx-auto justify-between px-40 ">
     <div class="flex items-end">
       <img
         src="./../assets/imgs/master-card.png"

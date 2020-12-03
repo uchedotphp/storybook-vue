@@ -35,15 +35,23 @@
             <span> Remember me </span>
             <a href="#" class="underline"> Forgot Password? </a>
           </div>
-          <button class="bg-gray-300 px-14 py-2 focus:outline-none mr-4">Submit</button>
-          <button class="bg-white px-14 py-2 border border-gray-400 focus:outline-none">Sign Up</button>
+          <button class="bg-gray-300 px-14 py-2 focus:outline-none mr-4">
+            Submit
+          </button>
+          <button
+            class="bg-white px-14 py-2 border border-gray-400 focus:outline-none"
+          >
+            Sign Up
+          </button>
         </form>
       </div>
     </div>
-    <div class="flex justify-end pr-10">
+    <div class="flex justify-end pr-14">
       <div class="rounded-full h-40 w-40 border-4 border-gray-400 relative">
         <div class="rounded-full h-80 w-80 bg-gray-200 absolute right-8 top-14">
-          <div class="rounded-full h-32 w-32 bg-gray-500 absolute top-44 right-60"></div>
+          <div
+            class="rounded-full h-32 w-32 bg-gray-500 absolute top-44 right-60"
+          ></div>
         </div>
       </div>
     </div>
